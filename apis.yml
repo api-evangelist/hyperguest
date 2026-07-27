@@ -1,23 +1,105 @@
 aid: hyperguest
 name: Hyperguest
-description: Hyperguest is a company surfaced as a portfolio company of lightspeed-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  HyperGuest is a B2B hospitality distribution platform that connects hotels
+  directly with travel demand partners through a single unified connectivity
+  API, removing wholesaler and intermediary layers so accommodation suppliers
+  and travel providers can transact real-time availability, rates, and bookings
+  at 100% direct rates. The platform provides real-time inventory and pricing
+  control, direct payment settlement, guest-data visibility, and an adaptive
+  distribution engine (Revenue Compass) that tunes incentives and rates between
+  guest acquisition and revenue maximization. HyperGuest integrates with 100+
+  PMS, channel manager, and travel-tech systems (Mews, Cloudbeds, SiteMinder,
+  Oracle Opera Cloud, Shiji, D-Edge, TravelgateX, and more). It was surfaced as
+  a portfolio company of Lightspeed Venture Partners and profiled into the API
+  Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/hyperguest/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - lightspeed-venture-partners
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: enrichment-pipeline
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://cdn.prod.website-files.com/63dcd07c76cffb83ef457ea8/63dcd07c76cffb5e63458041_Favicon%20Hyperguest.png
 tags:
 - Company
-apis: []
+- Hospitality
+- Hotels
+- Travel
+- Distribution
+- Connectivity
+- Booking
+- Payments
+apis:
+- name: HyperGuest Connectivity API
+  description: >-
+    HyperGuest's unified connectivity API for travel demand partners and
+    accommodation providers to exchange real-time availability, rates, and
+    bookings directly with hotels. Access is partner-provisioned and
+    authentication-gated; there is no public developer portal or OpenAPI
+    definition published at this time.
+  humanURL: https://www.hyperguest.com/travel-providers
+  baseURL: https://api.hyperguest.com
+  tags:
+  - Hospitality
+  - Hotels
+  - Booking
+  - Connectivity
+  properties:
+  - type: Integrations
+    url: https://www.hyperguest.com/integrations
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: TrustCenter
+  url: security/hyperguest-trust-center.yml
+- type: Website
+  url: https://www.hyperguest.com
+- type: SignUp
+  url: https://app.hyperguest.com/
+- type: Login
+  url: https://app.hyperguest.com/
+- type: Support
+  url: https://www.hyperguest.com/frequently-asked-questions-faqs
+- type: Blog
+  url: https://www.hyperguest.com/industry-blog
+- type: Integrations
+  url: https://www.hyperguest.com/integrations
+- type: TermsOfService
+  url: https://www.hyperguest.com/user-terms-of-use
+- type: PrivacyPolicy
+  url: https://www.hyperguest.com/privacy-policy
+- type: Security
+  url: https://www.hyperguest.com/security
+- type: VulnerabilityDisclosure
+  url: security/hyperguest-vulnerability-disclosure.yml
+- type: Compliance
+  url: https://www.hyperguest.com/pci-dss-compliance
+- type: Conformance
+  url: conformance/hyperguest-conformance.yml
+- type: DomainSecurity
+  url: security/hyperguest-domain-security.yml
+- type: LLMsTxt
+  url: llms/hyperguest-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

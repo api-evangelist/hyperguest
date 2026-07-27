@@ -1,0 +1,41 @@
+generated: '2026-07-19'
+method: searched
+source: probed hyperguest.com hosts
+note: >-
+  No real .well-known discovery documents were found. The api host is
+  authentication-gated (401 for all paths) and the app host is a single-page
+  application that returns HTML (200) for every path, so its 200s are not
+  genuine documents. No files saved.
+hosts:
+- host: https://www.hyperguest.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://api.hyperguest.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 401
+  - path: /.well-known/openid-configuration
+    status: 401
+  - path: /.well-known/oauth-authorization-server
+    status: 401
+  - path: /.well-known/api-catalog
+    status: 401
+  - path: /.well-known/ai-plugin.json
+    status: 401
+- host: https://app.hyperguest.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    note: SPA catch-all returns text/html, not a real security.txt
+  - path: /.well-known/openid-configuration
+    status: 200
+    note: SPA catch-all returns text/html, not a real OIDC document

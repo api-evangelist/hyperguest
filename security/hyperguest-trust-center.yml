@@ -1,0 +1,13 @@
+generated: '2026-07-19'
+method: searched
+probe: true
+source: https://www.hyperguest.com/security
+url: https://www.hyperguest.com/security
+certifications:
+- PCI DSS
+- GDPR
+evidence:
+- source: https://www.hyperguest.com/security
+  keywords:
+  - pci-dss
+  - gdpr

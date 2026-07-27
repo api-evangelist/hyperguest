@@ -1,0 +1,28 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.hyperguest.com/security
+standards:
+- id: pci-dss
+  conforms: true
+  evidence: >-
+    Annual PCI DSS compliance audit conducted by Qualified Security Assessor
+    (QSA) Adsigo, resulting in an Attestation of Compliance (AOC).
+  docs: https://www.hyperguest.com/pci-dss-compliance
+- id: gdpr
+  conforms: true
+  evidence: >-
+    Published GDPR program with a designated Data Protection Officer
+    (Moshik Kantor, gdpr@hyperguest.com) and Data Processing Agreements.
+  docs: https://www.hyperguest.com/gdpr
+- id: psd2
+  conforms: true
+  evidence: PSD2 compliance referenced for payment handling.
+  docs: https://www.hyperguest.com/psd2
+compliance_program:
+  published: true
+  certifications:
+  - PCI DSS
+  - GDPR
+  - PSD2
+  assessor: Adsigo (QSA)
+  url: https://www.hyperguest.com/pci-dss-compliance

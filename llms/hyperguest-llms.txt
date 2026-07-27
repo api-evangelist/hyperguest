@@ -1,0 +1,36 @@
+# HyperGuest
+
+> HyperGuest is a B2B hospitality distribution platform that connects hotels directly with travel demand partners through a single unified connectivity API, removing wholesaler and intermediary layers so accommodation suppliers and travel providers can transact real-time availability, rates, and bookings at 100% direct rates. It integrates with 100+ PMS, channel-manager, and travel-tech systems and offers an adaptive distribution engine (Revenue Compass) plus direct payment settlement.
+
+## APIs
+
+- [HyperGuest Connectivity API](https://www.hyperguest.com/travel-providers): Unified connectivity API for real-time availability, rates, and bookings. Base URL https://api.hyperguest.com. Access is partner-provisioned and authentication-gated; no public OpenAPI is published.
+
+## Solutions
+
+- [For Hotels](https://www.hyperguest.com/hotels): Direct distribution to travel providers without wholesaler layers, with pricing/inventory control and direct payment settlement.
+- [For Travel Providers](https://www.hyperguest.com/travel-providers): Single API integration to a global hotel network at 100% direct rates.
+- [Integrations](https://www.hyperguest.com/integrations): 100+ live PMS, channel-manager, and travel-tech integrations (Mews, Cloudbeds, SiteMinder, Oracle Opera Cloud, Shiji, D-Edge, TravelgateX, and more).
+
+## Security & Compliance
+
+- [Security & Vulnerability Disclosure](https://www.hyperguest.com/security): Responsible-disclosure policy with safe harbor, 90-day disclosure window, security@hyperguest.com. No bug bounty.
+- [PCI DSS Compliance](https://www.hyperguest.com/pci-dss-compliance): Annual PCI DSS audit by QSA Adsigo with Attestation of Compliance.
+- [GDPR](https://www.hyperguest.com/gdpr): GDPR program with Data Protection Officer (gdpr@hyperguest.com).
+- [PSD2](https://www.hyperguest.com/psd2): PSD2 compliance for payment handling.
+
+## Company
+
+- [About HyperGuest](https://www.hyperguest.com/about-us)
+- [Industry Blog](https://www.hyperguest.com/industry-blog)
+- [FAQs / Support](https://www.hyperguest.com/frequently-asked-questions-faqs)
+- [Login / App](https://app.hyperguest.com/)
+- [Terms of Use](https://www.hyperguest.com/user-terms-of-use)
+- [Privacy Policy](https://www.hyperguest.com/privacy-policy)
+
+## Repository artifacts
+
+- [Vulnerability disclosure](https://raw.githubusercontent.com/api-evangelist/hyperguest/refs/heads/main/security/hyperguest-vulnerability-disclosure.yml)
+- [Trust center](https://raw.githubusercontent.com/api-evangelist/hyperguest/refs/heads/main/security/hyperguest-trust-center.yml)
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/hyperguest/refs/heads/main/security/hyperguest-domain-security.yml)
+- [Conformance](https://raw.githubusercontent.com/api-evangelist/hyperguest/refs/heads/main/conformance/hyperguest-conformance.yml)
