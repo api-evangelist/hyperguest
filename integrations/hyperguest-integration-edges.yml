@@ -6,21 +6,6 @@ checked:
 - mews-com/integrations/mews-com-integration-edges.yml
 source: https://integrations-api.siteminder.com/public/partners/all?lang=en
 edges:
-- partner_name: SiteMinder
-  partner: siteminder
-  partner_match: aggregator
-  type: coverage
-  channel: partner-built
-  relationship: connector-coverage
-  direction: partner-built
-  evidence: https://integrations-api.siteminder.com/public/partners/all?lang=en
-  listed_as: HyperGuest
-  detected_by: sweep-hospitality.py
-  detected: '2026-10-14'
-  categories:
-  - ota
-  badges:
-  - partner_awards_finalist
 - partner_name: apaleo (own)
   partner: apaleo
   partner_match: mirror
@@ -54,3 +39,18 @@ edges:
   listing_count: 1
   detected: '2026-10-14'
   detected_by: mirror-platform-listings.py
+- partner_name: SiteMinder
+  partner: siteminder
+  partner_match: aggregator
+  type: coverage
+  channel: partner-built
+  relationship: connector-coverage
+  direction: partner-built
+  evidence: https://integrations-api.siteminder.com/public/partners/all?lang=en
+  listed_as: HyperGuest
+  detected_by: sweep-hospitality.py
+  detected: '2026-10-19'
+  categories:
+  - ota
+  badges:
+  - partner_awards_finalist
